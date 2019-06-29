@@ -1,6 +1,12 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const color = "blue"
+function animalcolor () {
+  const animalName = "elephant";
+  console.log (`${color} ${animalName}`);
+}
+animalcolor();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
